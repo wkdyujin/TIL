@@ -10,8 +10,6 @@ for i in range(1, T + 1):
         split_s = s[:j]
         dup = split_s*2
 
-        print(dup)
-        # a ( dup길이까지 index) <--> dup 비교
         if(s[:len(dup)] == dup):
             result = len(dup)//2
             break
